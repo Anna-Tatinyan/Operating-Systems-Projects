@@ -4,7 +4,7 @@ This project will create three diﬀerent executables, with increasing capabilit
 
 The project contains:
 
-		   1. boring.c - includes the code of the first part of the assignment. 
+	       1. boring.c - includes the code of the first part of the assignment. 
            2. custom.c - includes the code of the second part of the assignment.
            3. multi.c - includes the code of the third part of the assignment.
            4. custom.txt - the example test case for custom commander
