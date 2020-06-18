@@ -1,0 +1,33 @@
+Running command: whoami 
+anna
+
+-- Statistics -- 
+Elapsed time: 1 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): 79 
+-- End of Statistics -- 
+ 
+Running command: last 
+anna     tty7         :0               Sun Feb  2 03:40    gone - no logout
+reboot   system boot  4.4.203atatinyan Sun Feb  2 03:38   still running
+anna     tty7         :0               Sun Feb  2 02:41 - crash  (00:56)
+
+wtmp begins Sun Feb  2 02:41:18 2020
+
+-- Statistics -- 
+Elapsed time: 2 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): 84 
+-- End of Statistics -- 
+ 
+Running command: ls -al /home 
+total 12
+drwxr-xr-x  3 root root 4096 Jan 21 15:29 .
+drwxr-xr-x 23 root root 4096 Jan 31 17:48 ..
+drwxr-xr-x 21 anna anna 4096 Feb  2 03:41 anna
+
+-- Statistics -- 
+Elapsed time: 1 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): 90 
+-- End of Statistics --

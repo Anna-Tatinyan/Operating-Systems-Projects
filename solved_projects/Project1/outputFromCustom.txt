@@ -1,0 +1,60 @@
+Running command: ccd / 
+Changed to directory: / 
+ 
+Running command: ls -alh 
+total 104K
+drwxr-xr-x  23 root root 4.0K Jan 31 17:48 .
+drwxr-xr-x  23 root root 4.0K Jan 31 17:48 ..
+drwxr-xr-x   2 root root 4.0K Jan 21 16:13 bin
+drwxr-xr-x   3 root root 4.0K Jan 31 17:49 boot
+drwxrwxr-x   2 root root 4.0K Jan 21 15:28 cdrom
+drwxr-xr-x  18 root root 3.9K Feb  2 03:39 dev
+drwxr-xr-x 132 root root  12K Feb  2 03:39 etc
+drwxr-xr-x   3 root root 4.0K Jan 21 15:29 home
+lrwxrwxrwx   1 root root   33 Jan 31 17:48 initrd.img -> boot/initrd.img-4.4.0-173-generic
+lrwxrwxrwx   1 root root   33 Jan 31 17:48 initrd.img.old -> boot/initrd.img-4.4.0-171-generic
+drwxr-xr-x  22 root root 4.0K Jan 21 16:08 lib
+drwx------   2 root root  16K Jan 21 15:21 lost+found
+drwxr-xr-x   3 root root 4.0K Jan 24 20:41 media
+drwxr-xr-x   2 root root 4.0K Jul 19  2016 mnt
+drwxr-xr-x   3 root root 4.0K Jan 24 20:42 opt
+dr-xr-xr-x 186 root root    0 Feb  2 03:38 proc
+drwx------   4 root root 4.0K Feb  2 03:39 root
+drwxr-xr-x  25 root root  760 Feb  2 03:41 run
+drwxr-xr-x   2 root root  12K Jan 24 20:42 sbin
+drwxr-xr-x   2 root root 4.0K Jan 21 16:22 snap
+drwxr-xr-x   2 root root 4.0K Jul 19  2016 srv
+dr-xr-xr-x  13 root root    0 Feb  2 04:04 sys
+drwxrwxrwt  12 root root 4.0K Feb  2 04:40 tmp
+drwxr-xr-x  12 root root 4.0K Jan 21 16:35 usr
+drwxr-xr-x  14 root root 4.0K Jul 19  2016 var
+lrwxrwxrwx   1 root root   30 Jan 31 17:48 vmlinuz -> boot/vmlinuz-4.4.0-173-generic
+lrwxrwxrwx   1 root root   30 Jan 31 17:48 vmlinuz.old -> boot/vmlinuz-4.4.0-171-generic
+
+-- Statistics -- 
+Elapsed time: 4 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): 79 
+-- End of Statistics -- 
+ 
+Running command: cpwd 
+Current directory: /
+
+Running command: ccd /home 
+Changed to directory: /home 
+ 
+Running command: ls -alh 
+total 12K
+drwxr-xr-x  3 root root 4.0K Jan 21 15:29 .
+drwxr-xr-x 23 root root 4.0K Jan 31 17:48 ..
+drwxr-xr-x 21 anna anna 4.0K Feb  2 03:41 anna
+
+-- Statistics -- 
+Elapsed time: 2 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): 95 
+-- End of Statistics -- 
+ 
+Running command: cpwd 
+Current directory: /home
+

@@ -1,0 +1,24 @@
+Instruction? 0,map,0,1 
+Put page table for PID 0 into physical frame 0 
+Mapped virtual address 0 (page 0) into physical frame 1
+Instruction? 1,map,0,1 
+Put page table for PID 1 into physical frame 2 
+Mapped virtual address 0 (page 0) into physical frame 3
+Instruction? 2,map,0,1 
+Swapped frame 1 to disk at swap slot 0 
+Swapped frame 3 to disk at swap slot 1 
+Put page table for PID 2 into physical frame 1 
+Mapped virtual address 0 (page 0) into physical frame 3
+Instruction? 0,store,0,1 
+Swapped frame 3 to disk at swap slot 2 
+Swapped disk slot 0 into frame 3
+Stored value 1 at virtual address 0 (physical address 48) 
+Instruction? 2,store,0,1 
+Swapped frame 3 to disk at swap slot 3 
+Swapped disk slot 2 into frame 3
+Stored value 1 at virtual address 0 (physical address 48) 
+Instruction? 0,load,0,1 
+Swapped frame 3 to disk at swap slot 4 
+Swapped disk slot 3 into frame 3
+The value 1 is virtual address 0 (physical address 48) 
+Instruction? End of file
