@@ -1,0 +1,6 @@
+ccd /
+ls -alh
+cpwd
+ccd /home
+ls -alh
+cpwd

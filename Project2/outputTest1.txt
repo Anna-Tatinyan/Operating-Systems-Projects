@@ -1,0 +1,26 @@
+Instruction? 0,map,0,0 
+Put page table for PID 0 into physical frame 0 
+Mapped virtual address 0 (page 0) into physical frame 1
+Instruction? 0,store,7,255 
+Error: Oh no, you don't have the permission! 
+Instruction? 0,map,0,1 
+Updating permissions for virtual page 0 (frame 1)Instruction? 0,store,7,255 
+Stored value 255 at virtual address 7 (physical address 23) 
+Instruction? 0,load,7,0 
+The value 255 is virtual address 7 (physical address 23) 
+Instruction? 0,map,10,1 
+Error: virtual page 0 is already mapped with rw_bit=1 
+Instruction? 0,map,16,1 
+Mapped virtual address 16 (page 1) into physical frame 2
+Instruction? 0,map,32,1 
+Mapped virtual address 32 (page 2) into physical frame 3
+Instruction? 1,map,0,0 
+Swapped frame 1 to disk at swap slot 0 
+Swapped frame 2 to disk at swap slot 1 
+Put page table for PID 1 into physical frame 1 
+Mapped virtual address 0 (page 0) into physical frame 2
+Instruction? 0,load,7,0 
+Swapped frame 3 to disk at swap slot 2 
+Swapped disk slot 0 into frame 3
+The value 255 is virtual address 7 (physical address 55) 
+Instruction? End of file

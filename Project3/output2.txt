@@ -1,0 +1,60 @@
+-- Starting Simulation -- 
+Pirate 1 entering shop with team 0 
+Pirate 1 leaving shop with team 0 
+Pirate 1 entering shop with team 0 
+Pirate 0 entering shop with team 1 
+Pirate 1 leaving shop with team 0 
+Pirate 0 leaving shop with team 1 
+Ninja 3 entering shop of team 0 
+Ninja 1 entering shop of team 1 
+Ninja 4 entering shop of team 1 
+Ninja 1 leaving shop of team 1 
+Ninja 2 entering shop of team 1 
+Ninja 4 leaving shop of team 1 
+Ninja 0 entering shop of team 1 
+Ninja 0 leaving shop of team 1 
+Ninja 2 leaving shop of team 1 
+Ninja 3 leaving shop of team 0 
+Ninja 4 entering shop of team 0 
+Ninja 4 leaving shop of team 0 
+
+-- End of Simulation --
+Pirate 0: 
+Visit 1: Waited for 0 minutes and was in shop for 2 minutes. 
+Total number of visits: 1. Cost for Pirate 0: 2 
+
+Pirate 1: 
+Visit 1: Waited for 0 minutes and was in shop for 0 minutes. 
+Visit 2: Waited for 0 minutes and was in shop for 2 minutes. 
+Total number of visits: 2. Cost for Pirate 1: 2 
+
+Ninja 0: 
+Visit 1: Waited for 0 minutes and was in shop for 0 minutes. 
+Total number of visits: 1. Cost for Ninja 0: 0 
+
+Ninja 1: 
+Visit 1: Waited for 2 minutes and was in shop for 0 minutes. 
+Total number of visits: 1. Cost for Ninja 1: 0 
+
+Ninja 2: 
+Visit 1: Waited for 0 minutes and was in shop for 2 minutes. 
+Total number of visits: 1. Cost for Ninja 2: 2 
+
+Ninja 3: 
+Visit 1: Waited for 2 minutes and was in shop for 6 minutes. 
+Total number of visits: 1. Cost for Ninja 3: 6 
+
+Ninja 4: 
+Visit 1: Waited for 2 minutes and was in shop for 3 minutes. 
+Visit 2: Waited for 0 minutes and was in shop for 5 minutes. 
+Total number of visits: 2. Cost for Ninja 4: 8 
+All of the Pirates cost 4 gold pieces 
+All of the Ninjas cost 16 gold pieces 
+Expenses for employing the costume teams is: 20 gold pieces 
+Team 0 was busy for 13 minutes and free for 37 minutes.
+Team 1 was busy for 7 minutes and free for 37 minutes.
+Team 2 was busy for 0 minutes and free for 37 minutes.
+Team 3 was busy for 0 minutes and free for 37 minutes.
+Gross revenue is: 20 
+Gold per visit: 1.250000 
+Total revenue: 0 

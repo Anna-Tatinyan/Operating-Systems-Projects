@@ -1,0 +1,22 @@
+// test 1    we run ./multi 4 6
+whoami
+ls -alh
+cproclist
+sleep 2
+cproclist
+sleep 3
+cproclist
+ls
+cpwd
+
+// test 2	we run ./multi 3 6
+ccd /bin
+cpwd
+ccd ..
+df
+ps
+history
+ls
+uname -a
+
+

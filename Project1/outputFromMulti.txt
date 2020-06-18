@@ -1,0 +1,63 @@
+NOTE: RUNNING ./multi 1 3
+
+Output is:
+
+
+
+Running command: sleep 10 
+Background: ID [0]: sleep 10
+
+Running command: ls -alh 
+total 96K
+drwxrwxr-x 2 anna anna 4.0K Feb  2 04:42 .
+drwxrwxr-x 4 anna anna 4.0K Feb  2 04:09 ..
+-rwxrwxr-x 1 anna anna 7.7K Feb  2 04:20 boring
+-rw-rw-r-- 1 anna anna 1.5K Feb  2 04:40 boring.c
+-rwxrwxr-x 1 anna anna 8.0K Feb  2 04:20 custom
+-rw-rw-r-- 1 anna anna 2.1K Feb  2 04:40 custom.c
+-rw-rw-r-- 1 anna anna  152 Feb  2 04:28 customTestCases.txt
+-rw-rw-r-- 1 anna anna   42 Feb  2 04:28 custom.txt
+-rw-rw-r-- 1 anna anna  204 Feb  2 03:15 Makefile
+-rwxrwxr-x 1 anna anna  13K Feb  2 04:20 multi
+-rw-rw-r-- 1 anna anna 5.3K Feb  2 04:40 multi.c
+-rw-rw-r-- 1 anna anna  247 Feb  2 04:17 multiTestCases.txt
+-rw-rw-r-- 1 anna anna   40 Feb  2 04:16 multi.txt
+-rw-rw-r-- 1 anna anna  848 Feb  2 04:41 outputFromBoring.txt
+-rw-rw-r-- 1 anna anna 2.1K Feb  2 04:42 outputFromCustom.txt
+-rw-rw-r-- 1 anna anna 1.5K Feb  2 04:30 outputFromMulti.txt
+-rw-rw-r-- 1 anna anna 1.9K Jan 24 22:44 output.txt
+-rw-rw-r-- 1 anna anna  546 Jan 24 23:51 README.txt
+
+-- Statistics -- 
+Elapsed time: 3 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): 90 
+-- End of Statistics -- 
+
+Running command: sleep 3 
+Background: ID [1]: sleep 3
+
+Running command: cproclist 
+-- Background Processes -- 
+[0] sleep 10 
+[1] sleep 3 
+
+Running command: cpwd 
+Current directory: /home/anna/Project1/Project1_Team1091
+
+-- Job Complete [1: sleep 3] -- 
+Process ID: 8671 
+
+-- Statistics -- 
+Elapsed time: 3 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): -23 
+-- End of Statistics -- 
+-- Job Complete [0: sleep 10] -- 
+Process ID: 8669 
+
+-- Statistics -- 
+Elapsed time: 3 milliseconds 
+Page Faults: 0 
+Page Faults (reclaimed): -91 
+-- End of Statistics -- 
